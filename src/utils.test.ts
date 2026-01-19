@@ -1,9 +1,15 @@
 // src/utils.test.js
 import { describe, it, expect } from 'vitest';
-import {runningRecordsAccuracyRate} from './utils.ts'
+import {accuracyRate, selfCorrectionRate} from './utils.ts'
 
 describe('runningRecordsAccuracyRate', () => {
-  it('should calculate running records accuracy rate', () => {
-    expect(runningRecordsAccuracyRate(40, 20)).toBe(100)
+  it('should calculate accuracy rate', () => {
+    expect(accuracyRate(100, 5)).toBe(95)
+  });
+});
+
+describe('self-correction rate', () => {
+  it('should calculate self-correctionrate', () => {
+    expect(selfCorrectionRate(5, 2)).toBe(3.5)
   });
 });
