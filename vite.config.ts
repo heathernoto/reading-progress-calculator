@@ -1,3 +1,4 @@
+/// <reference types="vitest/config" />
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
@@ -10,4 +11,18 @@ export default defineConfig({
       },
     }),
   ],
+  test: {
+    globals: true,
+    name: 'unit',
+    environment: 'jsdom',
+    // setupFiles: './src/tests/setup.ts', // Path to a file for running setup code before tests
+    exclude: [
+      '**/node_modules/**',
+      '**/dist/**',
+      '**/public/**',
+      '**/.vscode/**'
+    ],
+    includeSource: ['src/**/*.{js,ts}'],
+  }
 })
+//https://vitest.dev/config/include.html
