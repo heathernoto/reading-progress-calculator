@@ -1,15 +1,12 @@
 .assessment-container {
   width: 100%;
-  margin: 20px auto;
+  background-color: #022b3a;
   font-family: system-ui, -apple-system, sans-serif;
 }
 
 .assessment-card {
   padding: 25px;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  background-color: #022b3a;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+
 }
 
 .form-title {
