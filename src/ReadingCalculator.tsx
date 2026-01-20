@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-import './Calculator.css'; // Import the CSS file
+import './Calculator.css';
 
 const ReadingCalculator = () => {
   const initialState = {
