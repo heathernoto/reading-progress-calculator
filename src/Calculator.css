@@ -1,0 +1,103 @@
+.assessment-container {
+  width: 100%;
+  margin: 20px auto;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.assessment-card {
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #022b3a;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.form-title {
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  color: #bfdbf7;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input{
+  background-color: #f5f7f9;
+  color:#022b3a
+}
+
+.input-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #e1e5f2;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #219ebc;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.btn {
+  flex: 2;
+  background-color:  #bfdbf7;
+  color: black;
+  border: 1px solid #e9ecef;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Results Box */
+.results-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #1f7a8c;
+  color:#e1e5f2;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  font-size: 0.95rem;
+}
+
+.result-value {
+  font-weight: bold;
+}
+
+/* Dynamic Level Colors */
+.level-independent {
+  color: #28ce4f;
+}
+.level-instructional {
+  color: #d77626;
+}
+.level-frustrational {
+    color: #e02739;
+}
