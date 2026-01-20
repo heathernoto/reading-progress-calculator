@@ -6,14 +6,6 @@
 
 .assessment-card {
   padding: 25px;
-
-}
-
-.form-title {
-  margin-top: 0;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 10px;
-  color: #bfdbf7;
 }
 
 .form-group {
@@ -55,7 +47,7 @@ input{
   background-color:  #bfdbf7;
   color: black;
   border: 1px solid #e9ecef;
-  padding: 12px;
+  padding: 10px;
   border: none;
   border-radius: 6px;
   font-weight: bold;

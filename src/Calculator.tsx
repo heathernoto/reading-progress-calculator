@@ -1,7 +1,7 @@
 import  { useState } from 'react';
 import './Calculator.css'; // Import the CSS file
 
-const Calculator = () => {
+const ReadingCalculator = () => {
   const initialState = {
     totalWordsRead: '',
     totalErrors: '',
@@ -11,7 +11,6 @@ const Calculator = () => {
   const [readingData, setReadingData] = useState(initialState);
 
   const handleChange = (e:any) => {
-    console.log("🚀 ~ handleChange ~ e:", e)
     const { name, value } = e.target;
     setReadingData({ ...readingData, [name]: value });
   };
@@ -50,8 +49,6 @@ const Calculator = () => {
   return (
     <div className="assessment-container">
       <div className="assessment-card">
-        <h2 className="form-title">Reading Tracker</h2>
-
         <div className="form-group">
           <div>
             <label className="input-label">Total Words Read</label>
@@ -93,4 +90,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default ReadingCalculator;
