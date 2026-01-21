@@ -42,7 +42,7 @@ const ReadingCalculator = () => {
 
         {results && (
           <div className="results-box">
-            <h3 style={{ marginTop: 0 }}>Assessment Summary</h3>
+            <h3 style={{ marginTop: 0, marginBottom: '.25rem' }}>Assessment Summary</h3>
             <div className="results-grid">
               <span>Accuracy Rate:</span>
               <span className={`result-value ${results.levelClass}`}>{results.accuracy}%</span>
