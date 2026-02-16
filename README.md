@@ -7,6 +7,8 @@ Created for friend who was previously using a free app whose ads made it unusabl
 npm run dev
 ```
 
+![Sample view](public/onDevice.png)
+
 ## Calculations and assessment metrics sourced from:  [Reading A-Z.com](https://www.readinga-z.com/)
 
 ## Helpful Links:
